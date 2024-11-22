@@ -28,6 +28,12 @@ header h1 {
 
 /* Navigation styling */
 nav {
+    Display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* Adjust gap as needed */
+    padding: 1rem;
+    background-color: #333;
     margin-top: 1em;
 }
 
