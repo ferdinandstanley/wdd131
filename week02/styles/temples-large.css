@@ -1,26 +1,62 @@
 @media only screen and (min-width: 768px) {
-    nav ul {
-        flex-direction: column;
+
+    /* Display the menu on larger screens */
+    nav a {
+        display: flex;
+        /* Show the navigation menu */
+        flex-direction: row;
+        /* Align menu items horizontally */
         justify-content: center;
+        /* Center the menu items */
+        gap: 20px;
+        /* Add space between menu items */
     }
 
     nav a {
-        flex-direction: column;
-        /* Stack menu items vertically */
-        gap: 10px;
+        display: inline-block;
+        /* Ensure links are inline */
+        padding: 0.5rem 1rem;
+        /* Add padding for better spacing */
+        text-decoration: none;
+        /* Remove underlines */
+        color: white;
+        /* Ensure text is visible */
+        background-color: transparent;
+        /* Transparent background for links */
+        border-radius: 5px;
+        /* Add slight rounding for a clean look */
+        transition: background-color 0.3s ease, color 0.3s ease;
+        /* Smooth transitions for hover effects */
     }
 
+    nav a:hover {
+        background-color: #ddd;
+        /* Change background color on hover */
+        color: #051f56;
+        /* Change text color on hover */
+    }
+
+    /* Hide the hamburger menu on larger screens */
     .hamburger-menu {
         display: none;
-        /* Hide the hamburger menu on larger screens */
+        /* Hide the hamburger menu */
     }
 
+    /* Grid Layout for Larger Screens */
     .grid-container {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        /* Responsive grid */
+        gap: 1.5rem;
+        /* Increase spacing between grid items */
     }
 
+    /* Main Content Layout */
     main {
         max-width: 1200px;
+        /* Increase maximum width for better use of space */
+        margin: 0 auto;
+        /* Center content horizontally */
+        padding: 2rem;
+        /* Add padding for spacing */
     }
-
 }
