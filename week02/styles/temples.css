@@ -102,7 +102,6 @@ footer {
 @media (max-width: 768px) {
     .hamburger-menu {
         display: block;
-        /* Show hamburger icon on smaller screens */
     }
 
     nav {
@@ -111,7 +110,6 @@ footer {
         background-color: #051f56;
         position: absolute;
         top: 60px;
-        /* Adjust based on header height */
         left: 0;
         width: 100%;
         z-index: 10;
@@ -120,14 +118,12 @@ footer {
 
     nav.hidden {
         display: none;
-        /* Hide menu when toggled */
     }
 
     nav a {
         padding: 1rem;
         text-align: center;
         display: block;
-        /* Make links full-width */
     }
 }
 
@@ -135,19 +131,13 @@ footer {
 @media (min-width: 768px) {
     nav {
         display: flex;
-        /* Always show navigation menu */
         flex-direction: row;
-        /* Align links horizontally */
         position: static;
-        /* Reset position */
         width: auto;
-        /* Default width */
         background-color: transparent;
-        /* No background color needed */
     }
 
     .hamburger-menu {
         display: none;
-        /* Hide hamburger menu on larger screens */
     }
 }
