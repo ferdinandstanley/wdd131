@@ -19,20 +19,6 @@ header {
     /*padding: 0rem 0;*/
 }
 
-/* Navigation Styles */
-header nav {
-    display: flex;
-    flex-direction: column;
-    background-color: #f4f4f4;
-    /* Example background color */
-    position: absolute;
-    top: 60px;
-    /* Adjust based on your header height */
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
 .hamburger-menu {
     display: block;
     /* Show hamburger icon */
