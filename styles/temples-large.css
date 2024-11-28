@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav a {
+        flex-direction: column;
+        /* Stack menu items vertically */
+        gap: 10px;
+    }
+
+    .hamburger-menu {
+        display: none;
+        /* Hide the hamburger menu on larger screens */
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    main {
+        max-width: 1200px;
+    }
+
+}

@@ -1,23 +1,102 @@
-/* Basic mobile-first styles */
+/* General Styles */
 body {
-    font-family: 'Your Google Font', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-header, main, footer {
+header {
+    display: flex;
+    align-items: center;
+    /* Vertically center items */
+    justify-content: space-between;
+    /* Spread items across the line */
+    padding: 10px 20px;
+    /* Add some padding */
+    background-color: #051f56;
+    text-align: center;
+    /*padding: 0rem 0;*/
+}
+
+.hamburger-menu {
+    display: block;
+    /* Show hamburger icon */
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0.5rem 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    padding: 4rem;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+main {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
     padding: 1rem;
 }
 
-nav {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-}
-
-#hamburger {
-    display: block;
+/* Image Styling */
+.grid-container img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 figure {
-    display: grid;
-    grid-template-columns: 1fr;
+    margin: 0;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 0;
 }
