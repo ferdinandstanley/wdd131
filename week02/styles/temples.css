@@ -26,6 +26,7 @@ header {
 
 nav.hidden {
     display: none;
+    color: #fff;
 }
 
 nav ul {
@@ -42,7 +43,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     padding: 0.5rem;
     display: inline-block;
 }
