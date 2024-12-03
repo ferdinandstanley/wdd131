@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place</title>
+    <link rel="stylesheet" href="styles/place.css">
+</head>
+
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/elephant-lg.webp" media="(min-width: 768px)">
+                <img src="images/elephant-sm.webp" alt="Elephants in Nigeria">
+            </picture>
+        </section>
+
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 923,769 sq km</li>
+                <li><strong>Population:</strong> 223,800,000</li>
+                <li><strong>Capital:</strong> Abuja</li>
+                <li><strong>Languages:</strong> English, Igbo, Hausa, Yoruba</li>
+                <li><strong>Currency:</strong> Nigerian Naira</li>
+                <li><strong>Time Zone:</strong> UTC/GMT+1</li>
+                <li><strong>Calling Code:</strong> +234</li>
+                <li><strong>Internet TLD:</strong> .ng</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <ul>
+                <li><strong>Temperature:</strong> 31°C</li>
+                <li><strong>Conditions:</strong> Mostly Sunny</li>
+                <li><strong>Wind:</strong> 5 km/h</li>
+                <li><strong>Wind Chill:</strong> <span id="windChill">N/A</span></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🌸 Stanley Uchechukwu Ferdinand, Lagos, Nigeria 🌸</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/place.js" defer></script>
+</body>
+
+</html>
