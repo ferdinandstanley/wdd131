@@ -10,7 +10,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* Spread items across the header */
     padding: 10px 20px;
     background-color: #051f56;
     color: white;
@@ -18,7 +17,6 @@ header {
 
 .hamburger-menu {
     display: none;
-    /* Hidden by default for larger screens */
     background: none;
     border: none;
     font-size: 2rem;
@@ -30,7 +28,6 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
-    /* Space between navigation links */
 }
 
 nav a {
