@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a filtered temple album page.">
+    <meta name="author" content="Stanley Uchechukwu Ferdinand">
+    <title>Temple-Album</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css" media="(min-width: 768px)">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Temples</h1>
+        <button class="hamburger-menu" aria-label="Menu" aria-expanded="false">☰</button>
+        <nav class="hidden">
+            <button class="filter-button" data-filter="all">Home</button>
+            <button class="filter-button" data-filter="old">Old</button>
+            <button class="filter-button" data-filter="new">New</button>
+            <button class="filter-button" data-filter="large">Large</button>
+            <button class="filter-button" data-filter="small">Small</button>
+        </nav>
+    </header>
+    <main>
+        <h2>Temple Album</h2>
+        <div id="temples-container" class="grid-container">
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🌸 Stanley Uchechukwu Ferdinand, Lagos, Nigeria 🌸</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
