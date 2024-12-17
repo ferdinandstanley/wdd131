@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header, footer {
+    background-color: #051f56;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 1rem;
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label, legend {
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #051f56;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00337A;
+}
+
+.rating {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.rating label {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+}
