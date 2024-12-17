@@ -8,18 +8,17 @@ document.addEventListener("DOMContentLoaded", () => {
         img.loading = "lazy";
     });
 
-    // Join Button Interaction
-    const joinButton = document.getElementById("joinButton");
+    // Join Us Button Interaction
+    const joinButton = document.querySelector(".join-us");
     joinButton.addEventListener("click", () => {
         alert("Thank you for joining our community!");
     });
-    
-});
 
-// Toggle navigation menu for mobile
-const hamburgerBtn = document.getElementById('hamburger-btn');
-const navbar = document.getElementById('navbar');
+    // Toggle Hamburger Menu
+    const hamburgerBtn = document.getElementById("hamburger-btn");
+    const navbar = document.getElementById("navbar");
 
-hamburgerBtn.addEventListener('click', () => {
-    navbar.classList.toggle('show');
+    hamburgerBtn.addEventListener("click", () => {
+        navbar.classList.toggle("show");
+    });
 });
